@@ -1,0 +1,18 @@
+2024-05-01 05:56:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found; SQL statement:
+create table if not exists book (
+    reviewId INT PRIMARY KEY AUTO_INCREMENT,
+    reviewContent varchar(255),
+    rating INT,
+    productId INT,
+    FOREIGN KEY (productId) REFERENCES product(productId)
+) [42102-214]
+2024-05-01 05:56:27 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found; SQL statement:
+create table if not exists book (
+    reviewId INT PRIMARY KEY AUTO_INCREMENT,
+    reviewContent varchar(255),
+    rating INT,
+    productId INT,
+    FOREIGN KEY (productId) REFERENCES product(productId)
+) [42102-214]
